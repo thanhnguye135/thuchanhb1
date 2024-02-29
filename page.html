@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="desktop-wallpaper-web-development.jpg"
+    />
+
+    <link rel="stylesheet" href="style-page.css" />
+
+    <title>Test online</title>
+  </head>
+
+  <body>
+    <div class="quiz-container">
+      <h1>Multiple Choice Quiz</h1>
+      <hr />
+      <form id="quiz-form">
+        <div class="d-flex">
+          <div class="question">
+            <p>
+              Câu 1: Trái đất là hành tinh duy nhất có sự sống trong hệ mặt
+              trời.
+            </p>
+            <div class="answers">
+              <label><input type="radio" name="q1" value="true" /> Đúng</label>
+              <label><input type="radio" name="q1" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 2: Nước có phản ứng với kim loại để tạo ra khí hiđro.</p>
+            <div class="answers">
+              <label><input type="radio" name="q2" value="true" /> Đúng</label>
+              <label><input type="radio" name="q2" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 3: Hạt nhân nguyên tử chứa các hạt mang điện tích dương và hạt
+              mang điện tích âm.
+            </p>
+            <div class="answers">
+              <label><input type="radio" name="q3" value="true" /> Đúng</label>
+              <label><input type="radio" name="q3" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 4: Ánh sáng mặt trời có chứa các loại sóng bước khác nhau, bao
+              gồm cả sóng siêu âm.
+            </p>
+            <div class="answers">
+              <label><input type="radio" name="q4" value="true" /> Đúng</label>
+              <label><input type="radio" name="q4" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 5: Nước đá làm cho nước cất nhiệt động học bão hòa giảm.</p>
+            <div class="answers">
+              <label><input type="radio" name="q5" value="true" /> Đúng</label>
+              <label><input type="radio" name="q5" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 6: Công thức hóa học của nước là H2O.</p>
+            <div class="answers">
+              <label><input type="radio" name="q6" value="true" /> Đúng</label>
+              <label><input type="radio" name="q6" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 7: Sự phản ứng hóa học giữa natri và nước tạo ra khí hidroxit.
+            </p>
+            <div class="answers">
+              <label><input type="radio" name="q7" value="true" /> Đúng</label>
+              <label><input type="radio" name="q7" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 8: Cường độ ánh sáng mặt trời không đổi trong cả ngày.</p>
+            <div class="answers">
+              <label><input type="radio" name="q8" value="true" /> Đúng</label>
+              <label><input type="radio" name="q8" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 9: Phân tử nước gồm hai nguyên tử hydro và một nguyên tử oxi.
+            </p>
+            <div class="answers">
+              <label><input type="radio" name="q9" value="true" /> Đúng</label>
+              <label><input type="radio" name="q9" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 10: Điện trở là một loại vật liệu dẫn điện tốt.</p>
+            <div class="answers">
+              <label><input type="radio" name="q10" value="true" /> Đúng</label>
+              <label><input type="radio" name="q10" value="false" /> Sai</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 1: Trong chu kỳ trái đất, biểu hiện nào diễn ra khi Mặt Trời
+              nằm ở giữa Trái Đất và Mặt Trăng?
+            </p>
+            <div class="answers">
+              <label
+                ><input type="radio" name="q11" value="a" /> Trăng mới</label
+              >
+              <label
+                ><input type="radio" name="q11" value="b" /> Trăng lệch</label
+              >
+              <label
+                ><input type="radio" name="q11" value="c" /> Trăng đầy</label
+              >
+              <label
+                ><input type="radio" name="q11" value="d" /> Trăng không
+                gian</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 2: Trong hệ mặt trời, hành tinh nào gần nhất với Mặt Trời?
+            </p>
+            <div class="answers">
+              <label
+                ><input type="radio" name="q12" value="a" /> Mặt Trăng</label
+              >
+              <label><input type="radio" name="q12" value="b" /> Sao Mộc</label>
+              <label><input type="radio" name="q12" value="c" /> Sao Thổ</label>
+              <label><input type="radio" name="q12" value="d" /> Sao Hỏa</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 3: Trong thần thoại Hy Lạp, ai là vị thần của biển cả?</p>
+            <div class="answers">
+              <label><input type="radio" name="q13" value="a" /> Zeus</label>
+              <label><input type="radio" name="q13" value="b" /> Hades</label>
+              <label
+                ><input type="radio" name="q13" value="c" /> Poseidon</label
+              >
+              <label><input type="radio" name="q13" value="d" /> Apollo</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 4: Trong bảng tuần hoàn các nguyên tố hóa học, nguyên tố nào
+              có ký hiệu "Fe"?
+            </p>
+            <div class="answers">
+              <label><input type="radio" name="q14" value="a" /> Sắt</label>
+              <label><input type="radio" name="q14" value="b" /> Kẽm</label>
+              <label><input type="radio" name="q14" value="c" /> Đồng</label>
+              <label><input type="radio" name="q14" value="d" /> Alumin</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 5: Ai là tác giả của "Thiên Long Bát Bộ"?</p>
+            <div class="answers">
+              <label
+                ><input type="radio" name="q15" value="a" /> Kim Dung</label
+              >
+              <label
+                ><input type="radio" name="q15" value="b" /> Nguyễn Du</label
+              >
+              <label><input type="radio" name="q15" value="c" /> Tô Hoài</label>
+              <label
+                ><input type="radio" name="q15" value="d" /> Ngô Thừa Ân</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 6: Trong thời kỳ nào, con người bắt đầu sử dụng công cụ đầu
+              tiên?
+            </p>
+            <div class="answers">
+              <label
+                ><input type="radio" name="q16" value="a" /> Thời kỳ đồ đá
+                cũ</label
+              >
+              <label
+                ><input type="radio" name="q16" value="b" /> Thời kỳ đồ đá
+                mới</label
+              >
+              <label
+                ><input type="radio" name="q16" value="c" /> Thời kỳ đồ
+                đồng</label
+              >
+              <label
+                ><input type="radio" name="q16" value="d" /> Thời kỳ đồ
+                sắt</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 7: Phát biểu nào sau đây là đúng về vận tốc âm thanh?</p>
+            <div class="answers">
+              <label
+                ><input type="radio" name="q17" value="a" /> Vận tốc không đổi
+                tùy thuộc vào môi trường</label
+              >
+              <label
+                ><input type="radio" name="q17" value="b" /> Vận tốc tăng khi đi
+                qua không khí dày hơn</label
+              >
+              <label
+                ><input type="radio" name="q17" value="c" /> Vận tốc giảm khi đi
+                qua không khí dày hơn</label
+              >
+              <label
+                ><input type="radio" name="q17" value="d" /> Vận tốc âm thanh
+                không thể đo lường được</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 8: Trong phép tính toán, "pi" đại diện cho giá trị gì?</p>
+            <div class="answers">
+              <label><input type="radio" name="q18" value="a" /> 3.14</label>
+              <label><input type="radio" name="q18" value="b" /> 2.71</label>
+              <label><input type="radio" name="q18" value="c" /> 1.61</label>
+              <label><input type="radio" name="q18" value="d" /> 4.52</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 9: Ai là tác giả của "Tô Hoài"?</p>
+            <div class="answers">
+              <label
+                ><input type="radio" name="q19" value="a" /> Kim Dung</label
+              >
+              <label
+                ><input type="radio" name="q19" value="b" /> Nguyễn Du</label
+              >
+              <label><input type="radio" name="q19" value="c" /> Tô Hoài</label>
+              <label
+                ><input type="radio" name="q19" value="d" /> Ngô Thừa Ân</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 10: Trong thần thoại Hy Lạp, ai là vị thần của mặt trăng?</p>
+            <div class="answers">
+              <label><input type="radio" name="q20" value="a" /> Artemis</label>
+              <label><input type="radio" name="q20" value="b" /> Apollo</label>
+              <label><input type="radio" name="q20" value="c" /> Hera</label>
+              <label><input type="radio" name="q20" value="d" /> Hades</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 1: Những hành tinh nào trong hệ mặt trời có vòng nhật?</p>
+            <div class="answers">
+              <label
+                ><input type="checkbox" name="q21" value="a" /> Sao Mộc</label
+              >
+              <label
+                ><input type="checkbox" name="q21" value="b" /> Sao Hỏa</label
+              >
+              <label
+                ><input type="checkbox" name="q21" value="c" /> Sao Thổ</label
+              >
+              <label
+                ><input type="checkbox" name="q21" value="d" /> Sao Kim</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 2: Các nguyên tố nào sau đây là khí quý?</p>
+            <div class="answers">
+              <label><input type="checkbox" name="q22" value="a" /> Oxy</label>
+              <label><input type="checkbox" name="q22" value="b" /> Nitơ</label>
+              <label><input type="checkbox" name="q22" value="c" /> Heli</label>
+              <label
+                ><input type="checkbox" name="q22" value="d" /> Lưu huỳnh</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 3: Trong hệ mặt trời, những hành tinh nào có vòng nhật?</p>
+            <div class="answers">
+              <label
+                ><input type="checkbox" name="q23" value="a" /> Sao Mộc</label
+              >
+              <label
+                ><input type="checkbox" name="q23" value="b" /> Sao Hỏa</label
+              >
+              <label
+                ><input type="checkbox" name="q23" value="c" /> Sao Thổ</label
+              >
+              <label
+                ><input type="checkbox" name="q23" value="d" /> Sao Kim</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 4: Các nguyên tố nào sau đây là khí quý?</p>
+            <div class="answers">
+              <label><input type="checkbox" name="q24" value="a" /> Oxy</label>
+              <label><input type="checkbox" name="q24" value="b" /> Nitơ</label>
+              <label><input type="checkbox" name="q24" value="c" /> Heli</label>
+              <label
+                ><input type="checkbox" name="q24" value="d" /> Lưu huỳnh</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 5: Trong thần thoại Hy Lạp, những vị thần nào là anh em?</p>
+            <div class="answers">
+              <label
+                ><input type="checkbox" name="q25" value="a" /> Zeus và
+                Hera</label
+              >
+              <label
+                ><input type="checkbox" name="q25" value="b" /> Poseidon và
+                Hades</label
+              >
+              <label
+                ><input type="checkbox" name="q25" value="c" /> Apollo và
+                Artemis</label
+              >
+              <label
+                ><input type="checkbox" name="q25" value="d" /> Ares và
+                Athena</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 6: Trong thần thoại Hy Lạp, những vị thần nào là anh em?</p>
+            <div class="answers">
+              <label
+                ><input type="checkbox" name="q26" value="a" /> Zeus và
+                Hera</label
+              >
+              <label
+                ><input type="checkbox" name="q26" value="b" /> Poseidon và
+                Hades</label
+              >
+              <label
+                ><input type="checkbox" name="q26" value="c" /> Apollo và
+                Artemis</label
+              >
+              <label
+                ><input type="checkbox" name="q26" value="d" /> Ares và
+                Athena</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 7: Cây nước nào sau đây có nguồn gốc từ Australia?</p>
+            <div class="answers">
+              <label
+                ><input type="checkbox" name="q27" value="a" /> Maple</label
+              >
+              <label
+                ><input type="checkbox" name="q27" value="b" />
+                Eucalyptus</label
+              >
+              <label><input type="checkbox" name="q27" value="c" /> Oak</label>
+              <label><input type="checkbox" name="q27" value="d" /> Pine</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 8: Loài vật nào sau đây không có xương sống?</p>
+            <div class="answers">
+              <label><input type="checkbox" name="q28" value="a" /> Chim</label>
+              <label><input type="checkbox" name="q28" value="b" /> Cá</label>
+              <label
+                ><input type="checkbox" name="q28" value="c" /> Bò sát</label
+              >
+              <label><input type="checkbox" name="q28" value="d" /> Ếch</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 9: Trong bóng đá, mỗi đội có bao nhiêu cầu thủ trong một đội
+              hình xuất phát?
+            </p>
+            <div class="answers">
+              <label><input type="checkbox" name="q29" value="a" /> 9</label>
+              <label><input type="checkbox" name="q29" value="b" /> 10</label>
+              <label><input type="checkbox" name="q29" value="c" /> 11</label>
+              <label><input type="checkbox" name="q29" value="d" /> 12</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 10: Những loại nào sau đây là loại trái cây?</p>
+            <div class="answers">
+              <label><input type="checkbox" name="q30" value="a" /> Bơ</label>
+              <label
+                ><input type="checkbox" name="q30" value="b" /> Cà chua</label
+              >
+              <label
+                ><input type="checkbox" name="q30" value="c" /> Dưa hấu</label
+              >
+              <label
+                ><input type="checkbox" name="q30" value="d" /> Cà phê</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>Câu 1: Trong thần thoại Hy Lạp, ai là vị thần của biển cả?</p>
+            <textarea name="q31"></textarea>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 2: Trong bảng tuần hoàn các nguyên tố hóa học, nguyên tố nào
+              có ký hiệu "Fe"?
+            </p>
+            <textarea name="q32"></textarea>
+          </div>
+
+          <div class="question">
+            <p>Câu 3: Trong thần thoại Hy Lạp, những vị thần nào là anh em?</p>
+            <textarea name="q33"></textarea>
+          </div>
+
+          <div class="question">
+            <p>Câu 4: Cây nước nào sau đây có nguồn gốc từ Australia?</p>
+            <textarea name="q34"></textarea>
+          </div>
+
+          <div class="question">
+            <p>Câu 5: Những loại nào sau đây là loại trái cây?</p>
+            <textarea name="q35"></textarea>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 6: Trong thời kỳ nào, con người bắt đầu sử dụng công cụ đầu
+              tiên?
+            </p>
+            <textarea name="q36"></textarea>
+          </div>
+
+          <div class="question">
+            <p>Câu 7: Phát biểu nào sau đây là đúng về vận tốc âm thanh?</p>
+            <textarea name="q37"></textarea>
+          </div>
+
+          <div class="question">
+            <p>Câu 8: Trong phép tính toán, "pi" đại diện cho giá trị gì?</p>
+            <textarea name="q38"></textarea>
+          </div>
+
+          <div class="question">
+            <p>
+              Câu 9: Trong bóng đá, mỗi đội có bao nhiêu cầu thủ trong một đội
+              hình xuất phát?
+            </p>
+            <textarea name="q39"></textarea>
+          </div>
+
+          <div class="question">
+            <p>Câu 10: Trong thần thoại Hy Lạp, ai là vị thần của mặt trăng?</p>
+            <textarea name="q40"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+
+      <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
